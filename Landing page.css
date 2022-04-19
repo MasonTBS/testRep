@@ -1,0 +1,120 @@
+
+.center {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+          
+}
+
+span{
+  padding-right: 70px;
+ 
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+    background-color: hsl(0, 0%, 90%);
+    justify-content: center;
+}
+nav{
+  padding-top: 20px;
+
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: hsl(0, 0%, 90%);;
+}
+button{
+  background-color: yellow;
+  width: 140px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top :15px;  
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid transparent;
+}
+button:hover{
+  background-color: orange;
+    transition-duration: 0.4s;
+  cursor: pointer;
+}
+header{
+  margin-top: 80px;
+}
+input{
+  width: 250px;
+  height: 25px;
+}
+p{
+  text-align: center;
+  line-height: 25px;
+  }
+  footer{
+  
+  background-color: grey;
+  border: 1px solid black;
+  width: 50%;
+  margin-left : 450px;
+    margin-top : 50px;
+  padding: 20px;
+
+}
+.image{
+  width: 250px;
+  height:45px;
+}
+.list{
+  display: flex;
+  justify-content: center;
+  float : right;
+}
+.ads{
+  
+}
+.icon>img{
+  
+  width: 80px;
+}
+.icon{
+    margin-top: -20px;
+
+  margin-right: 50px;
+ float: left;
+}
+.container>.ads>div>h2{
+    margin-top: 50px;
+  margin-bottom:0px;
+}
+.container{
+      flex-direction : column;
+}
+#video{
+  margin-top: 70px;
+}
+.boxes {
+  margin-top: 50px;
+}
+.box{
+  border: 1px solid black;
+  margin-right: 10px;
+}
+.box-title{
+    padding: 15px 50px 15px 50px;
+  font-weight: bold;
+    background-color: grey; 
+  font-size: 90%;
+}
+
+
+  
+.select{
+  margin-bottom: 15px;
+}
+
+
+  
